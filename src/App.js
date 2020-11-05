@@ -8,6 +8,7 @@ import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 
 
 
+
 export default function App() {
   const [search, setsearch] = useState('')
   const [query, setquery] = useState('batman')

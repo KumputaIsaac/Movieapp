@@ -7,8 +7,8 @@ import {
 export default function Box({image,title,setid,id}) {
     
     return (
-        <Link to="/try">
-            <div className='box' onClick={()=>{
+        <Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/try">
+            <div className='box'  onClick={()=>{
                 setid(id);
             }}>
             <div className='image'>
