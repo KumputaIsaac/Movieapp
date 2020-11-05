@@ -19,13 +19,13 @@ export default function App() {
 
   useEffect(()=>{
     async function getMovie() {
-    const response = await fetch(`http://www.omdbapi.com/?apikey=fcc5ed45&s=${query}`)
+    const response = await fetch(`https://www.omdbapi.com/?apikey=fcc5ed45&s=${query}`)
     const data = await response.json()
     setMovie(data.Search)
   }
     getMovie();
     async function getMovieDetails() {
-      const response = await fetch(`http://www.omdbapi.com/?apikey=fcc5ed45&i=${id}`)
+      const response = await fetch(`https://www.omdbapi.com/?apikey=fcc5ed45&i=${id}`)
       const data = await response.json()
       setmoviedetails(data)
     }
