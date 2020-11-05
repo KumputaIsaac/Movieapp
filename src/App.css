@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: aqua;
+}
+/* app */
+h1{
+  text-align: center;
+}
+
+/* search */
+main{
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.searchbox{
+  width: 100%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  background: none;
+  background-color: #eee;
+  border-radius: 8px;
+  color: #535353;
+  transition: 0.4s ease-out;
+}
+
+.searchbox:focus{
+  box-shadow: 0 0 8px 3px rgb(65, 123, 123);
+}
+.try{
+  background-color: aqua;
+}
